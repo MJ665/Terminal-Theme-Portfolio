@@ -141,15 +141,16 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
-
+  <div style="display : inline-flex; align-items: center;">
+  <img src="https://avatars.githubusercontent.com/u/111617351?v=4" width="180px" style=""margit-right:2rem>
+  ███╗   ███╗███████╗███████╗████████╗         ██╗ █████╗ ██╗███╗   ██╗
+  ████╗ ████║██╔════╝██╔════╝╚══██╔══╝         ██║██╔══██╗██║████╗  ██║
+  ██╔████╔██║█████╗  █████╗     ██║            ██║███████║██║██╔██╗ ██║
+  ██║╚██╔╝██║██╔══╝  ██╔══╝     ██║       ██   ██║██╔══██║██║██║╚██╗██║
+  ██║ ╚═╝ ██║███████╗███████╗   ██║       ╚█████╔╝██║  ██║██║██║ ╚████║
+  ╚═╝     ╚═╝╚══════╝╚══════╝   ╚═╝        ╚════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝
+  </div>
+  
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.

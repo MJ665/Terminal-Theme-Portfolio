@@ -1,20 +1,20 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "Hello 👋 from Meet | Meet Jain",
+  "name": "Meet Jain",
+  "ascii": "Meet Jain",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "MJ665",
+    "linkedin": "mj665"
   },
   "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "ps1_hostname": "Terminal Theme Portfolio",
+  "ps1_username": "Welcome",
+  "repo": "https://github.com/MJ665/Terminal-Theme-Portfolio",
+  "resume_url": "https://drive.google.com/file/d/1fi9hVO9c6tNinS5UsxLgeNiTASifbSvI/view",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://paypal.me/",
+    "patreon": "https://patreon.com/"
   },
   "colors": {
     "light": {
@@ -27,6 +27,15 @@
       "red": "#CA2124"
     },
     "dark": {
+      "background": "#2E3440",
+      "foreground": "#E5E9F0",
+      "yellow": "#5E81AC",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
+    },
+    "oldDark": {
       "background": "#2E3440",
       "foreground": "#E5E9F0",
       "yellow": "#5E81AC",
